@@ -1,10 +1,10 @@
 import "./App.css";
-import ToggleSwitch from "../../src";
+import ToggleSwitch from "../../src/reactsToggles/ToggleSwitchBasic/ToggleSwitchBasic";
 
 function App() {
   return (
     <div className="container">
-      <ToggleSwitch size={10} />
+      <ToggleSwitch />
     </div>
   );
 }
