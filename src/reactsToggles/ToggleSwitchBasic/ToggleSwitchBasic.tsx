@@ -12,6 +12,7 @@ interface ToggelSwitchBasicPropType {
   outlineOnFocus?: boolean;
   outlineColor?: string;
   outlineWidth?: string;
+  transitionDuration?: string;
   bgColorChecked: string;
   bgColorUnchecked?: string;
 }
@@ -19,7 +20,7 @@ interface ToggelSwitchBasicPropType {
 const ToggleSwitchBasic = (props: ToggelSwitchBasicPropType) => {
   const [checkedWidth, setCheckedWidth] = useState(0);
   /*
-  TODO: ADD TRANSITION DURATION PROP AND MEDIA QUERY PROP
+  TODO: ADD MEDIA QUERY PROP
   */
   const {
     size = 3.2,
@@ -31,6 +32,7 @@ const ToggleSwitchBasic = (props: ToggelSwitchBasicPropType) => {
     outlineOnFocus = true,
     outlineColor = "gray",
     outlineWidth = "1px",
+    transitionDuration = "200ms",
     bgColorChecked = "#4cda64",
     bgColorUnchecked = "#dbdbdb",
   } = props;
@@ -52,6 +54,7 @@ const ToggleSwitchBasic = (props: ToggelSwitchBasicPropType) => {
           outlineOnFocus={outlineOnFocus}
           outlineColor={outlineColor}
           outlineWidth={outlineWidth}
+          transitionDuration={transitionDuration}
           bgColorChecked={bgColorChecked}
           bgColorUnchecked={bgColorUnchecked}
         >
@@ -77,6 +80,7 @@ interface LabelPropType {
   outlineOnFocus: boolean;
   outlineColor: string;
   outlineWidth: string;
+  transitionDuration: string;
   bgColorChecked: string;
   bgColorUnchecked: string;
 }
@@ -114,7 +118,8 @@ const Label = styled.label<LabelPropType>`
     display: flex;
     align-items: center;
     border-radius: 10rem;
-    transition: background-color 200ms ease;
+    transition: ${(props) =>
+      `background-color ${props.transitionDuration} ease`};
     box-shadow: ${(props) => props.backgroundShadow};
     &::before {
       position: absolute;
@@ -125,7 +130,7 @@ const Label = styled.label<LabelPropType>`
       aspect-ratio: 1;
       background-color: white;
       border-radius: 50%;
-      transition: all 200ms ease;
+      transition: ${(props) => `all ${props.transitionDuration} ease`};
       box-shadow: ${(props) => props.buttonShadow};
     }
   }
