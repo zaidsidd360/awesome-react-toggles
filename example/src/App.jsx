@@ -4,7 +4,7 @@ import ToggleSwitch from "../../src/reactsToggles/ToggleSwitchBasic/ToggleSwitch
 function App() {
   return (
     <div className="container">
-      <ToggleSwitch />
+      <ToggleSwitch size={4} />
     </div>
   );
 }
