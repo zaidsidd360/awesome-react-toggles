@@ -13,7 +13,7 @@
 ## Features
 - Customizable styles and toggle duration. ✅
 - Support onToggle callback. 🔄
-- In-built multiple toggle switch variants. 🚀
+- In-built multiple toggle switch variants. (in-progress) 🚀
 
 ## Installation
 Install package with NPM or YARN and add it to your development dependencies:
