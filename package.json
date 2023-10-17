@@ -1,8 +1,9 @@
 {
   "name": "awesome-react-toggles",
   "private": false,
-  "version": "0.0.6",
+  "version": "1.0.0",
   "type": "module",
+  "types": "./dist/awesome-react-toggles.d.ts",
   "files": [
     "dist"
   ],
@@ -40,7 +41,7 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },
-  "description": "A React component which renders a toggle switch.",
+  "description": "React component which renders a toggle switch.",
   "directories": {
     "example": "example"
   },

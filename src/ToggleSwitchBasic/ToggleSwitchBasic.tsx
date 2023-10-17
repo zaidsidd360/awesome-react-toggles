@@ -3,7 +3,7 @@ import isPropValid from "@emotion/is-prop-valid";
 import { useEffect, useState } from "react";
 import { Label } from "./ToggleSwitchBasicStyle";
 
-interface ToggelSwitchBasicPropType {
+export interface ToggleSwitchBasicPropType {
   size?: number;
   width?: number;
   onToggle?: () => void;
@@ -18,7 +18,7 @@ interface ToggelSwitchBasicPropType {
   bgColorUnchecked?: string;
 }
 
-const ToggleSwitchBasic = (props: ToggelSwitchBasicPropType) => {
+const ToggleSwitchBasic = (props: ToggleSwitchBasicPropType) => {
   const {
     size = 3.2,
     width = 2,
