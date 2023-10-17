@@ -16,7 +16,6 @@
 - In-built multiple toggle switch variants. (in-progress) 🚀
 
 ## Installation
-Install package with NPM or YARN and add it to your development dependencies:
 ```
 npm install awesome-react-toggles
 ```
