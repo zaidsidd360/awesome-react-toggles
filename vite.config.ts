@@ -8,9 +8,9 @@ export default defineConfig({
     lib: {
       // Could also be a dictionary or array of multiple entry points
       entry: resolve(__dirname, "src/index.ts"),
-      name: "React-toggle-switch",
+      name: "Awesome-react-toggles",
       // the proper extensions will be added
-      fileName: (format) => `my-component.${format}.js`,
+      fileName: (format) => `awesome-react-toggles.${format}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

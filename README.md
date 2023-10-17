@@ -1,4 +1,4 @@
-<h1>React-toggle-switch</h1>
+<h1>Awesome-react-toggles</h1>
 
 <p align="center">🚀 React component that renders a toggle switch 🔘✅ </p>
 
@@ -18,16 +18,16 @@
 ## Installation
 Install package with NPM or YARN and add it to your development dependencies:
 ```
-npm install react-toggle-switch
+npm install awesome-react-toggles
 ```
 OR
 ```
-yarn add react-toggle-switch
+yarn add awesome-react-toggles
 ```
 
 ## Usage
 ```
-import { ToggleSwitchBasic } from "react-toggle-switch";
+import { ToggleSwitchBasic } from "awesome-react-toggles";
 
 function App(props) {
 
@@ -60,4 +60,4 @@ function App(props) {
 | `bgColorUnchecked` | Background color when the switch is toggled off | string (must be a valid CSS color value) | "#dbdbdb"
 
 ## Report a bug
-If you found a bug in this library, please file an GitHub issue [here](https://github.com/zaidsidd360/react-toggle-switch/issues).
+If you found a bug in this library, please file an GitHub issue [here](https://github.com/zaidsidd360/awesome-react-toggles/issues).
