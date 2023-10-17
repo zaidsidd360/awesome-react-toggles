@@ -1,1 +1,3 @@
-export * from "./reactsToggles";
+import ToggleSwitchBasic from "./ToggleSwitchBasic/ToggleSwitchBasic";
+
+export { ToggleSwitchBasic };

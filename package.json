@@ -1,19 +1,19 @@
 {
   "name": "awesome-react-toggles",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.6",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/awesome-react-toggles.umd.cjs",
-  "module": "./dist/awesome-react-toggles.js",
   "exports": {
     ".": {
-      "import": "./dist/awesome-react-toggles.js",
-      "require": "./dist/awesome-react-toggles.umd.cjs"
+      "import": "./dist/awesome-react-toggles.es.js",
+      "require": "./dist/awesome-react-toggles.umd.js"
     }
   },
+  "main": "./dist/awesome-react-toggles.umd.js",
+  "module": "./dist/awesome-react-toggles.es.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
