@@ -26,20 +26,22 @@ yarn add awesome-react-toggles
 ```
 
 ## Usage
-```
+```jsx
 import { ToggleSwitchBasic } from "awesome-react-toggles";
 
-function App(props) {
+const App = (props: any): JSX.Element => {
 
-  const handleToggle = () => {
-    window.alert("Toggle works!")
-  }
+    const handleToggle = () => {
+      console.log("Toggle works!")
+    }
 
-  return (
-    <ToggleSwitchBasic
-      onToggle={handleToggle}
-    />
-  );
+    return (
+      <ToggleSwitchBasic
+        size={5}
+        width={4}
+        onToggle={handleToggle}
+      />
+    );
 }
 ```
 
