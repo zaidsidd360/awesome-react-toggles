@@ -1,6 +1,6 @@
-<h1>Awesome-react-toggles</h1>
+<h1 align="center">Awesome React Toggles</h1>
 
-<p align="center">🚀 React component that renders a toggle switch 🔘✅ </p>
+<p align="center">🚀⚛ A collection of react components to render cool toggle switches 🔘✅ </p>
 
 <p align="center">
   <a href="#features">Features</a> •
