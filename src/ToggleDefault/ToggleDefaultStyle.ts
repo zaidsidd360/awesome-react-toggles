@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-interface LabelPropType {
+interface LabelProp {
   size: number;
   width: number;
   buttonShadow: string;
@@ -13,7 +13,7 @@ interface LabelPropType {
   bgColorUnchecked: string;
 }
 
-export const Label = styled.label<LabelPropType>`
+export const Label = styled.label<LabelProp>`
   height: ${(props) => props.size + "rem"};
   width: ${(props) => props.size * props.width + "rem"};
   display: inline-block;

@@ -1,9 +1,9 @@
 import { StyleSheetManager } from "styled-components";
 import isPropValid from "@emotion/is-prop-valid";
 import { useEffect, useState } from "react";
-import { Label } from "./ToggleSwitchBasicStyle";
+import { Label } from "./ToggleDefaultStyle";
 
-export interface ToggleSwitchBasicPropType {
+export interface ToggleDefaultProp {
   size?: number;
   width?: number;
   onToggle?: () => void;
@@ -18,7 +18,7 @@ export interface ToggleSwitchBasicPropType {
   bgColorUnchecked?: string;
 }
 
-const ToggleSwitchBasic = (props: ToggleSwitchBasicPropType) => {
+const ToggleDefault = (props: ToggleDefaultProp) => {
   const {
     size = 3.2,
     width = 2,
@@ -71,4 +71,4 @@ const ToggleSwitchBasic = (props: ToggleSwitchBasicPropType) => {
   );
 };
 
-export default ToggleSwitchBasic;
+export default ToggleDefault;

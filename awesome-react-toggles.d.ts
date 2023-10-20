@@ -1,9 +1,7 @@
 declare module "awesome-react-toggles" {
-  export function ToggleSwitchBasic(
-    props: ToggleSwitchBasicPropType
-  ): JSX.Element;
+  export function ToggleDefault(props: ToggleDefaultProp): JSX.Element;
 
-  export interface ToggleSwitchBasicPropType {
+  export interface ToggleDefaultProp {
     size?: number;
     width?: number;
     onToggle?: () => void;

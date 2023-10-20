@@ -1,7 +1,7 @@
 {
   "name": "awesome-react-toggles",
   "private": false,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "types": "./dist/awesome-react-toggles.d.ts",
   "files": [
@@ -49,6 +49,14 @@
     "type": "git",
     "url": "awesome-react-toggles"
   },
-  "author": "zaidsidd360",
-  "license": "MIT"
+  "author": "Md Zaid Siddiqui",
+  "license": "MIT",
+  "keywords": [
+    "toggle",
+    "toggle switch",
+    "toggle button",
+    "switch",
+    "react toggle",
+    "react switch"
+  ]
 }

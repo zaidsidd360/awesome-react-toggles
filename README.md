@@ -26,7 +26,7 @@ yarn add awesome-react-toggles
 
 ## Usage
 ```jsx
-import { ToggleSwitchBasic } from "awesome-react-toggles";
+import { ToggleDefault } from "awesome-react-toggles";
 
 const App = (props: any): JSX.Element => {
 
@@ -35,7 +35,7 @@ const App = (props: any): JSX.Element => {
     }
 
     return (
-      <ToggleSwitchBasic
+      <ToggleDefault
         size={5}
         width={4}
         onToggle={handleToggle}
@@ -61,4 +61,4 @@ const App = (props: any): JSX.Element => {
 | `bgColorUnchecked` | Background color when the switch is toggled off | string (must be a valid CSS color value) | "#dbdbdb" |
 
 ## Report a bug
-If you found a bug in this library, please file an GitHub issue [here](https://github.com/zaidsidd360/awesome-react-toggles/issues).
+If you found a bug in this library, please file a GitHub issue [here](https://github.com/zaidsidd360/awesome-react-toggles/issues).

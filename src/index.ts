@@ -1,3 +1,3 @@
-import ToggleSwitchBasic from "./ToggleSwitchBasic/ToggleSwitchBasic";
+import ToggleDefault from "./ToggleDefault/ToggleDefault";
 
-export { ToggleSwitchBasic };
+export { ToggleDefault };
